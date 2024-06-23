@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    background-color: #f7ebd3; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Menu {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(252, 202, 210, 0.7); 
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+.Menu nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Menu button {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.7); /* Light pink text color */
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Menu button:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.background {
+    position: relative;
+    background-image: url(../img/CuteKu.gif);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 3rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    width: 100%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff7ae9, 0 0 40px #ff7ae9, 0 0 50px #ff7ae9, 0 0 60px #ff7ae9, 0 0 70px #ff7ae9;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 192, 203, 0.7), 0 0 40px rgba(255, 192, 203, 0.7), 0 0 50px rgba(255, 192, 203, 0.7), 0 0 60px rgba(255, 192, 203, 0.7), 0 0 70px rgba(255, 192, 203, 0.7), 0 0 80px rgba(255, 192, 203, 0.7);
+    }
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.choices button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: rgba(230, 168, 215, 0.8); 
+}
+
+.choices button:hover,
+.choices button:focus {
+    background-color: #ff7ae9; 
+    box-shadow: 0 0 10px rgba(255, 122, 233, 0.5), 0 0 20px rgba(255, 122, 233, 0.5);
+}
+
+.Footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 192, 203, 0.7); 
+}

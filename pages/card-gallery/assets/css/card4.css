@@ -1,0 +1,110 @@
+.s4hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ff7ae9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.s4hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff7ae9, 0 0 40px #ff7ae9, 0 0 50px #ff7ae9, 0 0 60px #ff7ae9, 0 0 70px #ff7ae9;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 192, 203, 0.7), 0 0 40px rgba(255, 192, 203, 0.7), 0 0 50px rgba(255, 192, 203, 0.7), 0 0 60px rgba(255, 192, 203, 0.7), 0 0 70px rgba(255, 192, 203, 0.7), 0 0 80px rgba(255, 192, 203, 0.7);
+    }
+}
+
+.s4hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.s4choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.s4choices button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: rgba(230, 168, 215, 0.8); /* Light purple background with transparency */
+}
+
+
+
+.d4hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ff7ae9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.d4hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff7ae9, 0 0 40px #ff7ae9, 0 0 50px #ff7ae9, 0 0 60px #ff7ae9, 0 0 70px #ff7ae9;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 192, 203, 0.7), 0 0 40px rgba(255, 192, 203, 0.7), 0 0 50px rgba(255, 192, 203, 0.7), 0 0 60px rgba(255, 192, 203, 0.7), 0 0 70px rgba(255, 192, 203, 0.7), 0 0 80px rgba(255, 192, 203, 0.7);
+    }
+}
+
+.d4hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.d4choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.d4choices button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: rgba(230, 168, 215, 0.8); /* Light purple background with transparency */
+}
+
+.d4choices button:hover,
+.d4choices button:focus {
+    background-color: #ff7ae9; /* Bright pink */
+    box-shadow: 0 0 10px rgba(255, 122, 233, 0.5), 0 0 20px rgba(255, 122, 233, 0.5);
+}
+

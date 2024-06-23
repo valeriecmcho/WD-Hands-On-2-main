@@ -1,0 +1,134 @@
+.s5background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.s5overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.s5content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.s5content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffb6f1, 0 0 40px #ffb6f1, 0 0 50px #ffb6f1, 0 0 60px #ffb6f1, 0 0 70px #ffb6f1;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff94e6, 0 0 40px #ff94e6, 0 0 50px #ff94e6, 0 0 60px #ff94e6, 0 0 70px #ff94e6, 0 0 80px #ff94e6;
+    }
+}
+
+.s5choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.s5choices button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: rgba(255, 99, 188, 0.8);
+}
+
+
+
+
+
+
+.d5background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.d5overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.d5content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.d5content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffb6f1, 0 0 40px #ffb6f1, 0 0 50px #ffb6f1, 0 0 60px #ffb6f1, 0 0 70px #ffb6f1;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff94e6, 0 0 40px #ff94e6, 0 0 50px #ff94e6, 0 0 60px #ff94e6, 0 0 70px #ff94e6, 0 0 80px #ff94e6;
+    }
+}
+
+.d5choices {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.d5choices button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: rgba(255, 99, 188, 0.8);
+}
+
+.d5choices button:hover,
+.d5choices button:focus {
+    background-color: #ff4d9b;
+    box-shadow: 0 0 10px rgba(255, 77, 155, 0.5), 0 0 20px rgba(255, 77, 155, 0.5);
+}
