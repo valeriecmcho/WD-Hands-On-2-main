@@ -68,7 +68,6 @@ The project demosntrates how to code several Hero and Card types, Including Dyna
 - Static Card Designs
 - Dynamic Card Designs
 
-- 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
