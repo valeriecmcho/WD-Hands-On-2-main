@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- Demonstration project for cards and hero with variants of animation and themes.
+ Demonstration project for cards and hero with variants of animation and themes. Hero parts are crucial for drawing in visitors and establishing the overall tone of the website. They serve a critical function in making a good first impression and directing users further into the website because they are typically the first thing visitors see when they land on a webpage.
 </div>
 
 <br />
@@ -57,28 +57,22 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The project demosntrates how to code several Hero and Card types, Including Dynamic/Static desings on Hero and Card, using HTML and CSS. The purpose of the project is to learn HTML and CSS code.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website
-- Multiple CSS
-- Hover
-- Active
-- Focus
+- Static Hero Designs
+- Dynamic Hero Designs
+- Static Card Designs
+- Dynamic Card Designs
 
+- 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
