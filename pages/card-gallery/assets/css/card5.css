@@ -7,7 +7,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    & .img {
+        width: 50px;
+    }
 }
+
 
 .s5overlay {
     position: absolute;
