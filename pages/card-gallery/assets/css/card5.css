@@ -1,9 +1,4 @@
 
-.img {
-    width: 50px;
-}
-
-
 .s5background {
     position: relative;
     background-size: cover;
@@ -13,6 +8,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    & .img {
+        width: 50px;
+    }
 }
 
 
@@ -81,6 +80,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    & .img {
+        width: 50px;
+    }
 }
 
 .d5overlay {
